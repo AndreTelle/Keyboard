@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Virtual Keyboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bodydesign.css">
+    <link rel="stylesheet" href="keyboard/keyboard.css">
+    <link rel="stylesheet" href="keyboard/keyboard.js">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="darkmode/darkmode.css">
+</head>
+
+<body>
+    <h1>Virtual Keyboard with HTML, CSS & JS</h1>
+    <h3>Features</h3>
+    <ul>
+        <li>Fácil de integrar</li>
+        <li>Responsivo</li>
+        <li>Vanilla JS</li>
+    </ul>
+    <textarea style="position: absolute; top: 130px; right: 30px; width: 300px;"></textarea>
+
+    <div class="keyboard">
+        <div class="keyboard__keys">
+            <button type="button" class="keyboard__key">a</button>
+            <button type="button" class="keyboard__key keyboard__key--wide">
+                <i class="material-symbols-outlined">backspace</i>
+            </button>
+            <button type="button" class="keyboard__key keyboard__key--extra-wide">
+                <i class="material-symbols-outlined">space_bar</i>
+            </button>
+            <button type="button" class="keyboard__key keyboard__key--wide keyboard__key--actvatable">
+                <i class="material-symbols-outlined">keyboard_capslock</i>
+            </button>
+        </div>
+    </div>
+
+    <button id="darkmode">Dark mode</button>
+    <script src="keyboard/keyboard.js"></script>
+    <script src="darkmode/darkmode.js"></script>
+</body>

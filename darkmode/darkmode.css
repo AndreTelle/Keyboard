@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff; /* Cor de fundo padrão (claro) */
+    color: #000000; /* Cor do texto padrão (preto) */
+}
+
+.dark-mode {
+    background-color: #1a1a1a; /* Cor de fundo para o modo escuro */
+    color: #ffffff; /* Cor do texto para o modo escuro */
+}
+
+
+.content {
+    padding: 20px;
+}
+
+#darkmode {
+    position: fixed;
+    background:  #333;
+    color:#fff;
+    height: 45px;
+    width: 10%;
+    border: none;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    max-width: 90px;
+}
+
+#darkmode:active {
+    background:  #555 !important;
+}
